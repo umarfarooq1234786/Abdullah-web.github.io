@@ -1,0 +1,44 @@
+.btn-dark 
+{
+    width: 100px;
+height: 30;
+border: 2px solid red;
+outline: none;
+border-radius: 20px;
+background-color: transparent;
+color:btn-dark;
+}
+.btn-dark:hover
+{
+    background-color: red;
+}
+.service-section .box
+{
+width: 300px;
+height: 300px;
+border: 2px solid white;
+
+}
+.card{
+    border: none;
+    outline: none;
+}
+.card{
+    color:rgb(12, 161, 219);
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    background-color:rgb(241, 27, 12);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color:blue;
+    transition: 0.5s;
+}
